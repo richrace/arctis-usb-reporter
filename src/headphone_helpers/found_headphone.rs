@@ -1,6 +1,6 @@
 use std::ffi::CStr;
 
-pub static VENDOR_ID: u16 = 4152;
+pub const VENDOR_ID: u16 = 4152;
 
 pub struct FoundHeadphone {
     pub name: String,
